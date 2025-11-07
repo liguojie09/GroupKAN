@@ -2,7 +2,7 @@
 
 :pushpin: Official PyTorch implementation of **GroupKAN: Rethinking Nonlinearity with Grouped Spline-based KAN Modeling for Efficient Medical Image Segmentation**
 
-[[`Paper (arXiv)`](https://arxiv.org/abs/xxxx.xxxxx)] [[`Project Page`](https://arxiv.org/abs/xxxx.xxxxx)] [[`Model Zoo (coming soon)`](#)]
+[[`Paper (arXiv)`](https://arxiv.org/abs/xxxx.xxxxx)] [[`Model Zoo (coming soon)`](#)]
 
 ---
 
@@ -12,7 +12,7 @@
 It integrates two novel components — **Grouped KAN Transform (GKT)** and **Grouped KAN Activation (GKA)** — into a lightweight and interpretable U-shaped backbone.
 
 <p align="center">
-  <img src="https://github.com/GroupKAN/GroupKAN/raw/main/docs/framework.png" alt="GroupKAN Framework" width="90%">
+  <img src="https://github.com/liguojie09/GroupKAN/blob/main/docs/framework.png" alt="GroupKAN Framework" width="90%">
 </p>
 <p align="center"><b>Figure 1.</b> Overall architecture of GroupKAN. The Grouped KAN Transform and Activation efficiently model intra-group dependencies with learnable spline functions.</p>
 
@@ -30,7 +30,7 @@ It integrates two novel components — **Grouped KAN Transform (GKT)** and **Gro
   Achieves **+1.1% IoU gain** over U-KAN with **47.6% fewer parameters (3.02M vs. 6.35M)**.
 
 <p align="center">
-  <img src="https://github.com/GroupKAN/GroupKAN/raw/main/docs/efficiency_tradeoff.jpg" alt="Efficiency tradeoff" width="80%">
+  <img src="https://github.com/liguojie09/GroupKAN/blob/main/docs/efficiency_tradeoff.png" alt="Efficiency tradeoff" width="47%">
 </p>
 <p align="center"><b>Figure 2.</b> Accuracy–complexity comparison across models. GroupKAN achieves better accuracy with nearly half the parameters of U-KAN.</p>
 
@@ -49,7 +49,7 @@ It integrates two novel components — **Grouped KAN Transform (GKT)** and **Gro
 ## 🩻 Qualitative Results
 
 <p align="center">
-  <img src="https://github.com/GroupKAN/GroupKAN/raw/main/docs/qualitative_results.png" alt="Segmentation Examples" width="90%">
+  <img src="https://github.com/liguojie09/GroupKAN/blob/main/docs/qualitative_results.png" alt="Segmentation Examples" width="99%">
 </p>
 <p align="center"><b>Figure 3.</b> GroupKAN produces more accurate and sharper segmentation results across BUSI, GlaS, and CVC datasets.</p>
 
@@ -60,7 +60,7 @@ It integrates two novel components — **Grouped KAN Transform (GKT)** and **Gro
 GroupKAN exhibits improved activation–mask alignment and interpretable feature distributions compared with U-KAN.
 
 <p align="center">
-  <img src="https://github.com/GroupKAN/GroupKAN/raw/main/docs/explainability.png" alt="Explainability visualization" width="85%">
+  <img src="https://github.com/liguojie09/GroupKAN/blob/main/docs/explainability.png" alt="Explainability visualization" width="50%">
 </p>
 <p align="center"><b>Figure 4.</b> Activation maps align more closely with anatomical boundaries, showing improved interpretability.</p>
 
