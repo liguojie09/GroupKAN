@@ -91,9 +91,9 @@ python val.py --weights checkpoints/groupkan_best.pth --dataset glas
 
 | Variant | Params (M) | IoU (%) | Checkpoint |
 |----------|-------------|---------|-------------|
-| GroupKAN-S | 0.87 | 65.89 | [Download](#) |
-| **GroupKAN** | 3.02 | **67.66** | [Download](#) |
-| GroupKAN-L | 12.00 | 68.36 | [Download](#) |
+| GroupKAN-BUSI | 3.02 | 79.8 | [KANet_Busi](checkpoints/KANet_Busi/) |
+| GroupKAN-CVC | 3.02 | 85.6 | [KANet_CVC](checkpoints/KANet_CVC/) |
+| GroupKAN-GLAS | 3.02 | 87.5 | [KANet_GLAS](checkpoints/KANet_GLAS/) |
 
 ---
 
