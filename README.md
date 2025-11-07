@@ -2,7 +2,7 @@
 
 :pushpin: Official PyTorch implementation of **GroupKAN: Rethinking Nonlinearity with Grouped Spline-based KAN Modeling for Efficient Medical Image Segmentation**
 
-[[`Paper (arXiv)`](https://arxiv.org/abs/xxxx.xxxxx)] [[`Model Zoo (coming soon)`](#)]
+[[`Paper (arXiv)`](https://arxiv.org/abs/xxxx.xxxxx)] [[`Model Zoo`](https://github.com/liguojie09/GroupKAN/tree/main/checkpoints)]
 
 ---
 
