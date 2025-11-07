@@ -89,11 +89,11 @@ python val.py --weights checkpoints/groupkan_best.pth --dataset glas
 
 ## 📦 Model Zoo
 
-| Variant | Params (M) | IoU (%) | Checkpoint |
-|----------|-------------|---------|-------------|
-| GroupKAN-BUSI | 3.02 | 79.8 | [KANet_Busi](checkpoints/KANet_Busi/) |
-| GroupKAN-CVC | 3.02 | 85.6 | [KANet_CVC](checkpoints/KANet_CVC/) |
-| GroupKAN-GLAS | 3.02 | 87.5 | [KANet_GLAS](checkpoints/KANet_GLAS/) |
+| Dataset | Image Size | Params (M) | IoU (%) | F1 (%) | Checkpoint |
+|----------|-------------|-------------|---------|---------|-------------|
+| **BUSI** | 256×256 | 3.02 | 67.66 | 80.52 | [KANet_Busi](https://github.com/liguojie09/GroupKAN/tree/main/checkpoints/KANet_Busi) |
+| **GlaS** | 512×512 | 3.02 | 88.11 | 93.67 | [KANet_GLAS](https://github.com/liguojie09/GroupKAN/tree/main/checkpoints/KANet_GLAS) |
+| **CVC** | 256×256 | 3.02 | 87.15 | 93.09 | [KANet_CVC](https://github.com/liguojie09/GroupKAN/tree/main/checkpoints/KANet_CVC) |
 
 ---
 
